@@ -9,10 +9,6 @@ int main () {
 
     cout << "savings: " << &savings << " " << savings << endl;
     cout << "savingsPtr: " << &savingsPtr << " " << savingsPtr << " " << *savingsPtr << endl;
-    cout << "savingsPtrPtr: " << &savingsPtrPtr << " " << savingsPtrPtr << " " << *savingsPtrPtr
-        << " " << **savingsPtrPtr << endl;
-
-
-
-
+    cout << "savingsPtrPtr: " << &savingsPtrPtr << " " << savingsPtrPtr << " " << *savingsPtrPtr << " " << **savingsPtrPtr << endl;
+    
 }
